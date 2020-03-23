@@ -20,3 +20,8 @@ test:
   password: 
   timeout: 5000
 
+production:
+  <<: *default
+  database: fake_twitter_production
+  username: 
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
