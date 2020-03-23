@@ -36,6 +36,7 @@ etc..
 
 Check seed file
 
+Deployed on Heroku, link above, see postgres branch
 
 
 ################################To Do##################################
