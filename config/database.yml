@@ -6,7 +6,7 @@ development:
   encoding: unicode
   database: fake_twitter_development
   pool: 5
-  username: 
+  username: conorcurran
   password: 
   timeout: 5000
  
@@ -16,12 +16,8 @@ test:
   encoding: unicode
   database: fake_twitter_test
   pool: 5
-  username: 
+  username: conorcurran
   password: 
   timeout: 5000
 
-production:
-  <<: *default
-  database: fake_twitter_production
-  username: 
-  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+
