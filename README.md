@@ -49,7 +49,7 @@ Transform styling
 
 * Ruby 2.7.0
 
-* SQlite
+* postgeSQL
 
 * Rspec
 
