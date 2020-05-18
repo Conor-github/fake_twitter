@@ -50,7 +50,7 @@ Transform styling
 
 * Ruby 2.7.0
 
-* SQlite
+* SQlite with PostGres in branch
 
 * Rspec
 
